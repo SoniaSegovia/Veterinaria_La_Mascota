@@ -43,7 +43,7 @@ if (!isset($_SESSION['user_id'])) {
             </thead>
             <tbody>
                 <?php
-                $consulta = "SELECT * FROM mascota";
+                $consulta = "SELECT * FROM Mascotas";
                 $llamado -> Listar($consulta);
                 ?>
             </tbody>

@@ -22,7 +22,7 @@
                 include('Config.php');
                 session_start();
 
-                if (isset($_POST['AgregarUsuario'])) 
+                if (isset($_POST['Agreegar_Animal'])) 
                 {
                     $nombre_mascota = $_POST['nombre_mascota'];
                     $raza= $_POST['raza'];

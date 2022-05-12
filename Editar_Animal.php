@@ -33,7 +33,7 @@ if(isset($_POST['editar']))
 if (isset($_GET['EditId']))
 {
     $Id = $_GET['EditId'];
-    $establecer = $conn -> prepare("SELECT * FROM Mascota WHERE idMascota=?");
+    $establecer = $conn -> prepare("SELECT * FROM Mascotas WHERE idmascota=?");
     $establecer->execute([$Id]);
     $registro = $establecer -> fetch(PDO::FETCH_OBJ);
 }
