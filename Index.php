@@ -48,7 +48,7 @@
                             else 
                             {
                                 header("location: Index.php");
-                                echo '<div class="alert alert-warning" role="alert">Usuario Existe Pero La Contraseña Esta Mal!</div>';
+                                echo '<div class="alert alert-warning" role="alert">Contraseña  Mala!</div>';
                             }
                         }
                     }
